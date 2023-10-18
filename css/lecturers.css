@@ -1,0 +1,42 @@
+.lecturers {
+  background-color: var(--color-grey_dark);
+  color: var(--color-main);
+  padding-top: 75px;
+}
+
+.lecturers-container {
+  padding: 0;
+}
+
+.lecturers__header {
+  margin-bottom: 23px;
+}
+
+.lecturers__list {
+  row-gap: 30px;
+}
+
+.lecturers__item-img {
+  width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0px 0px;
+  margin-bottom: 31px;
+  vertical-align: middle;
+}
+
+.lecturers__item-content {
+  padding-left: 1px;
+  max-width: 100%;
+}
+
+.lecturers__item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 7px;
+}
+
+.lecturers__item-descr {
+  line-height: 24px;
+  color: var(--color-grey_lighten);
+}

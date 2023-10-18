@@ -1,0 +1,15 @@
+:root {
+  --color-main: #FFF;
+  --color-secondary: #000;
+  --color-accent: #3F2AFF;
+  --color-grey_dark: #212133;
+  --color-grey_darken: #2E2B44;
+  --color-grey: #666666;
+  --color-grey_lighten: #85859B;
+  --color-grey_light: #EDF0F9;
+  --color-course-bg_1: #F6C055;
+  --color-course-bg_2: #212133;
+  --color-course-bg_3: #1188E4;
+  --color-course-bg_4: #6DA71D;
+  --gap: 30px;
+}

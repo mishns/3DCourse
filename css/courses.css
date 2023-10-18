@@ -1,0 +1,131 @@
+.courses {
+  padding-bottom: 80px;
+}
+
+.courses-container {
+  padding: 0;
+}
+
+.courses__header {
+  color: var(--color-grey_dark);
+  margin-bottom: 24px;
+}
+
+.courses__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.courses__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 480px;
+}
+
+.courses__card-bg {
+  min-height: 180px;
+  border-radius: 20px 20px 0 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.courses__card-bg::before {
+  position: absolute;
+  content: '60 часов';
+  top: 9px;
+  right: 14px;
+  min-width: 100px;
+  min-height: 24px;
+  padding-top: 4px;
+  padding-left: 29px;
+  color: var(--color-main);
+  background-image: url('../img/courses-time.svg');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+
+.courses__card-bg-1 {
+  background-image: url('../img/courses-1-w539.jpg');
+}
+
+.courses__card-bg-2 {
+  background-image: url('../img/courses-2-w539.jpg');
+}
+
+.courses__card-bg-3 {
+  background-image: url('../img/courses-3-w539.jpg');
+}
+
+.courses__card-bg-4 {
+  background-image: url('../img/courses-4-w539.jpg');
+}
+
+.courses__card-bg-hours_60::before {
+  content: '60 часов';
+}
+
+.courses__card-bg-hours_40::before {
+  content: '40 часов';
+}
+
+.courses__card-bg-hours_80::before {
+  content: '80 часов';
+}
+
+.courses__card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 31px 30px 30px 30px;
+  background-color: var(--color-grey_light);
+  border-radius: 0 0 20px 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.courses__card-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: var(--color-grey_dark);
+  margin-bottom: 7px;
+}
+
+.courses__card-descr {
+  color: var(--color-grey);
+  line-height: 24px;
+  margin-bottom: auto;
+}
+
+.courses__card-btn {
+  padding: 20.5px 59px;
+  max-width: 202px;
+  font-weight: 700;
+}
+
+.courses__card-btn:focus {
+  outline: 2px solid var(--color-secondary);
+}
+
+.courses__card-btn:active {
+  outline: none;
+}

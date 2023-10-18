@@ -1,0 +1,32 @@
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: var(--color-accent);
+  font-weight: 700;
+  color: var(--color-main);
+  -webkit-transition: color .3s ease, background-color .3s ease;
+  -o-transition: color .3s ease, background-color .3s ease;
+  transition: color .3s ease, background-color .3s ease;
+}
+
+.btn:focus {
+  outline: 2px solid var(--color-main);
+}
+
+.btn:hover {
+  background-color: var(--color-main);
+  color: var(--color-accent);
+}
+
+.btn:active {
+  outline: none;
+  background-color: var(--color-main);
+  color: var(--color-accent);
+}

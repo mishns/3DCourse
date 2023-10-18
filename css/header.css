@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--color-accent);
+  color: var(--color-main);
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 29px;
+  gap: 30px;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__nav-list {
+  gap: 57px;
+}
+
+.header__nav-link {
+  outline-offset: 2px;
+}
+
+.header__nav-link:focus {
+  outline: 2px solid var(--color-main);
+}
